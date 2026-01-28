@@ -1,10 +1,16 @@
-#include <stdio.h> 
+#include "main.h"
+
 /**
- * main - entry point of the c program 
- * return 0
-*/
-int main()
+ * main - prints _putchar
+ * Return: 0
+ */
+int main(void)
 {
-    printf("_putchar"); 
-    return (0); 
+	const char str[9] = "_putchar\n";
+	int i;
+
+	for (i = 0; i < 9; i++)
+		_putchar(str[i]);
+
+	return (0);
 }
