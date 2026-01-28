@@ -1,1 +1,1 @@
-// if statements and loops 
+variables, if-else, while, and more
